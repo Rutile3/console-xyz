@@ -10,7 +10,7 @@ console.info("info info info");
 // 入れ子構造
 console.group();
 console.log("group");
-console.group();
+console.group("group level 2");
 console.log("group group");
 console.groupCollapsed();
 console.log("group group group");
